@@ -1,0 +1,6 @@
+---
+# defaults file for ansible-openresty
+package_name: openresty-1.19.3.1-linux-x86_64.tar.gz
+install_dir: /usr/local/openresty
+prefix: "{{ install_dir }}/nginx"
+config_file: "{{ install_dir }}/nginx/conf/nginx.conf"
